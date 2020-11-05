@@ -126,7 +126,7 @@ int main(int* argc, char* argv[])
 						// Se recibe el mensaje de bienvenida
 						break;
 					case S_USER:
-						// establece la conexion de aplicacion 
+						// Establece la conexion de aplicacion 
 						printf("CLIENTE> Introduzca el usuario (enter para salir): ");
 						gets_s(input, sizeof(input));
 						if (strlen(input) == 0) {
